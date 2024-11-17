@@ -1,14 +1,12 @@
 # Modifikasi Tugas 2
 
-x = 25
-y = 24
-luas = 600
+lebar = 25
+panjang = 24
 
-x = input("masukan nilai x:")
-print("nilai x adalah :",x)
+# Hitung panjang lebar
+luas = panjang * lebar * 1/2
 
-y = input("masukan nilai y:")
-print("nilai y adalah :",y)
-
-luas = input("masukan nilai luas:")
-print("nilai luas adalah :",luas)
+# Output hasil
+print("nilai lebar adalah:", lebar)
+print("nilai panjang adalah:", panjang)
+print("Luas persegi panjang adalah:", luas)
