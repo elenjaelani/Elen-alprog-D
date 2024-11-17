@@ -1,12 +1,12 @@
-# Modifikasi Tugas 2
+#luas segitiga prog 2
+a = 25
+t = 24
+l = 300,0
 
-lebar = 25
-panjang = 24
-
-# Hitung panjang lebar
-luas = panjang * lebar * 1/2
-
-# Output hasil
-print("nilai lebar adalah:", lebar)
-print("nilai panjang adalah:", panjang)
-print("Luas persegi panjang adalah:", luas)
+#casting tipe data
+a = int(input("masukkan nilai a:"))
+print (" nilai a adalah : ", a, type(a))
+t = int(input("masukkan nilai t:"))
+print (" nilai t adalah : ", t, type(t))
+l = float(input("masukkan nilai l:"))
+print (" nilai l adalah : ", l, type(l))
